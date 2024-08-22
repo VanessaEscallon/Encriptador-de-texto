@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <title>Encriptador Alura Challange</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="Logoalura_a.png" alt="logo de alura" >
+    </header>
+    <main>
+        <section class="seccion1">
+            <div class="cajoncajatexto">
+                <textarea placeholder="Ingrese el texto aqui"
+                class="cajatexto"></textarea>
+            </div>
+            <div class="alerta">
+                <img src="./bi_exclamation-circle-fill.png" alt="alerta">
+                <p>Solo letras minúsculas y sin acentos</p>
+            </div>
+                    
+            <div class="contenedor-botones">
+                <button class="btn-encriptar" onclick="btnEncriptar()" >Encriptar</button>
+                <button class="btn-desencriptar" onclick="btnDesencriptar()" >Desencriptar</button>
+            </div>
+
+        </section>
+
+        <section class="seccion2">
+            <div class="cont-mune">
+                <img src="./Muคeco.png" alt="muneico">
+            </div>
+            <div class="contenedor-parrafo">
+                <h3>Ningún mensaje fue <br> encontrado</h3>
+                <p>Ingresa el texto que desees encriptar o <br> 
+                desencriptar.</p>
+            </div>
+            <div class="contenedor-copiar">
+                <input type="button" class="btn-copiar" value="Copiar">
+            </div>
+            <div class="contenedor-resultado">
+                <p class="texto-resultado"></p>
+            </div>
+        </section>
+       
+    </main>
+    <footer class="piepag">
+        
+        <span data-translate id="credits">@2024 Hecho por Vanessa Escallon G.</span>
+        <a href="" target="_blank" class="credits-link"> 
+        </a>
+    </footer> 
+<script src="./script.js"></script>
+</body>
+</html>
